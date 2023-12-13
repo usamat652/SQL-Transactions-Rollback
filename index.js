@@ -6,8 +6,6 @@ const app = express();
 
 app.use(express.json());
 
-// Other middleware and configurations...
-
 app.use('/api', accountRouter);
 
 async function syncModels() {

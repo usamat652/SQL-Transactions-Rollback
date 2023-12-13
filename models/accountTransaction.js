@@ -1,4 +1,3 @@
-// models/accountTransaction.js
 import { sequelize } from '../config/database.js';
 import Account from './accounts.js';
 import Transaction from './transaction.js';
